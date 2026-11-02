@@ -1,0 +1,26 @@
+{
+  "name": "taskflow-fullstack",
+  "version": "1.0.0",
+  "description": "TaskFlow - Task Management System with JWT Authentication (MCA Sem 3 Backend Technologies Lab Project)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test:backend": "node backend/run-and-test.js"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "react",
+    "rest-api",
+    "crud"
+  ],
+  "author": "MCA CU Student",
+  "license": "ISC"
+}
